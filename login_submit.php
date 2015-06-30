@@ -43,8 +43,8 @@ else{
 	/*** connect to database ***/
 	/**** MySQL variables ****/
 	$mysql_hostname = 'localhost';
-	$mysql_username = 'kirk';
-	$mysql_password = 'io98IO98';
+	$mysql_username = 'root';
+	$mysql_password = '';
 	$mysql_dbname = 'auth';
 	
 	try{
