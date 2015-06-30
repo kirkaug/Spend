@@ -12,10 +12,10 @@ if(!isset($_SESSION['user_id'])){
 		$mysql_hostname = 'localhost';
 		
 		/*** mysql username ***/
-		$mysql_username = 'kirk';
+		$mysql_username = 'root';
 		
 		/*** mysql password ***/
-		$mysql_password = 'io98IO98';
+		$mysql_password = '';
 		
 		/*** database name ***/
 		$mysql_dbname = 'auth';
