@@ -67,7 +67,7 @@ else{
 		if ($e->getCode() == 23000){
 			$message = 'Username already exists';
 		} else {
-			/*** if we are here, somthing has gone wrong with the database ***/
+			/*** if we are here, somthing has gone wrong with the database dude ***/
 			$message = 'We are unable to process your request. Please try again later. (code:'.$e.')';
 		}
 	}
